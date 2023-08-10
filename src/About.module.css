@@ -1,0 +1,56 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cards{
+  margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    border: rgb(56, 51, 51) solid 1px;
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 50px;
+    line-height: 30px;
+}
+
+.left{
+    display: flex;
+    gap: 50px;
+}
+
+.right{
+
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+
+.done{
+    color: green;
+    background-color: rgb(225, 235, 235);
+    border: solid black 1 px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.ongo{
+    color: orange;
+    background-color: rgb(225, 235, 235);
+    border: solid black 1 px;
+    border-radius: 5px;
+    font-size: 15px;
+}

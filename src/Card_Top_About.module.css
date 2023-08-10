@@ -1,0 +1,15 @@
+.main{
+    border: rgb(78, 71, 71) solid 1px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.main:hover{
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+}

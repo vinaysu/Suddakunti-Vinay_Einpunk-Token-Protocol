@@ -1,0 +1,27 @@
+.main {
+    border-bottom: 1px solid white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.image {
+    border-radius: 10px;
+}
+
+.right {
+    display: flex;
+    gap: 50px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.link:hover{
+    color: red;
+}
